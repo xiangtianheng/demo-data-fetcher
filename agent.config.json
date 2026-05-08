@@ -1,0 +1,14 @@
+{
+  "id": "demo-data-fetcher",
+  "name": "demo-data-fetcher",
+  "role": "worker",
+  "version": "0.1.0",
+  "description": "Test fixture for verifying litellm/ string-prefix stripping.",
+  "category": "Testing",
+  "owner": "xiangtianheng",
+  "capabilities": ["test-fixture"],
+  "model": "litellm/claude-sonnet-4-6",
+  "runtime": { "engine": "claude-code" },
+  "skills": [],
+  "env": {}
+}
